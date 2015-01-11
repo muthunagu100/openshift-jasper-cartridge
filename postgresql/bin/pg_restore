@@ -1,0 +1,3 @@
+#!/bin/sh
+. /Applications/jasperreports-server-6.0.1/postgresql/bin/setenv.sh
+exec /Applications/jasperreports-server-6.0.1/postgresql/bin/pg_restore.bin "$@"

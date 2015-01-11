@@ -1,0 +1,38 @@
+LOG:  database system was shut down at 2015-01-11 13:08:16 EST
+LOG:  database system is ready to accept connections
+LOG:  autovacuum launcher started
+LOG:  incomplete startup packet
+LOG:  received smart shutdown request
+LOG:  autovacuum launcher shutting down
+LOG:  shutting down
+LOG:  database system is shut down
+LOG:  database system was shut down at 2015-01-11 13:08:30 EST
+LOG:  database system is ready to accept connections
+LOG:  autovacuum launcher started
+ERROR:  database "jasperserver" does not exist
+STATEMENT:  DROP DATABASE jasperserver;
+	
+ERROR:  role "jasperdb" does not exist
+STATEMENT:  DROP ROLE jasperdb;
+	
+WARNING:  there is no transaction in progress
+ERROR:  database "sugarcrm" does not exist
+STATEMENT:  DROP DATABASE sugarcrm;
+	
+ERROR:  database "foodmart" does not exist
+STATEMENT:  DROP DATABASE foodmart;
+	
+ERROR:  syntax error at or near "EXTENSION" at character 8
+STATEMENT:  CREATE EXTENSION IF NOT EXISTS plpgsql WITH SCHEMA pg_catalog;
+ERROR:  syntax error at or near "EXTENSION" at character 12
+STATEMENT:  COMMENT ON EXTENSION plpgsql IS 'PL/pgSQL procedural language';
+LOG:  checkpoints are occurring too frequently (4 seconds apart)
+HINT:  Consider increasing the configuration parameter "checkpoint_segments".
+LOG:  checkpoints are occurring too frequently (9 seconds apart)
+HINT:  Consider increasing the configuration parameter "checkpoint_segments".
+ERROR:  canceling autovacuum task
+CONTEXT:  automatic analyze of table "foodmart.public.agg_c_special_sales_fact_1997"
+LOG:  received smart shutdown request
+LOG:  autovacuum launcher shutting down
+LOG:  shutting down
+LOG:  database system is shut down
