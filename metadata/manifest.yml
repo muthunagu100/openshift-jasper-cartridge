@@ -10,9 +10,9 @@ Versions:
 - '0.3'
 - '0.4'
 License: ASL 2.0
-Vendor: Jaspersoft
+Vendor: Custom Cartridgres Inc
 Cartridge-Version: 0.0.1
-Cartridge-Vendor: Jaspersoft
+Cartridge-Vendor: customcarts
 Categories:
 - service
 Provides:
